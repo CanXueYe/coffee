@@ -1,0 +1,4 @@
+D:\Alex\Project\coffee\coffee-sms-spring-boot-starter\src\main\java\cn\coffee\sms\spring\boot\autoconfigure\aliyun\CoffeeAliSmsProperties.java
+D:\Alex\Project\coffee\coffee-sms-spring-boot-starter\src\main\java\cn\coffee\sms\spring\boot\autoconfigure\aliyun\CoffeeSmsAliAutoConfig.java
+D:\Alex\Project\coffee\coffee-sms-spring-boot-starter\src\main\java\cn\coffee\sms\spring\boot\autoconfigure\tencent\CoffeeSmsTencentAutoConfig.java
+D:\Alex\Project\coffee\coffee-sms-spring-boot-starter\src\main\java\cn\coffee\sms\spring\boot\autoconfigure\tencent\CoffeeTencentSmsProperties.java

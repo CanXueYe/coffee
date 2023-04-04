@@ -1,0 +1,5 @@
+cn\coffee\sms\spring\boot\autoconfigure\aliyun\CoffeeSmsAliAutoConfig.class
+cn\coffee\sms\spring\boot\autoconfigure\tencent\CoffeeSmsTencentAutoConfig.class
+cn\coffee\sms\spring\boot\autoconfigure\aliyun\CoffeeAliSmsProperties.class
+META-INF\spring-configuration-metadata.json
+cn\coffee\sms\spring\boot\autoconfigure\tencent\CoffeeTencentSmsProperties.class

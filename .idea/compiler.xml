@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="coffee-oss-spring-boot-starter" />
+        <module name="coffee-cron" />
+        <module name="coffee-sms-spring-boot-starter" />
+        <module name="coffee-alipay" />
+        <module name="coffee-user" />
+        <module name="coffee-gms" />
+        <module name="coffee-oss" />
+        <module name="coffee-sms" />
+        <module name="coffee-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="coffee (1)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="coffee-alipay" options="-parameters" />
+      <module name="coffee-common" options="-parameters" />
+      <module name="coffee-cron" options="-parameters" />
+      <module name="coffee-gms" options="-parameters" />
+      <module name="coffee-oss" options="-parameters" />
+      <module name="coffee-oss-spring-boot-starter" options="-parameters" />
+      <module name="coffee-parent" options="" />
+      <module name="coffee-sms" options="-parameters" />
+      <module name="coffee-sms-spring-boot-starter" options="-parameters" />
+      <module name="coffee-user" options="-parameters" />
+    </option>
+  </component>
+</project>

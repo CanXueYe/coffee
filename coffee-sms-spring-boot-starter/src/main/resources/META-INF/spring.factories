@@ -1,0 +1,4 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.coffee.sms.spring.boot.autoconfigure.aliyun.CoffeeSmsAliAutoConfig ,\
+  cn.coffee.sms.spring.boot.autoconfigure.tencent.CoffeeSmsTencentAutoConfig

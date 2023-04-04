@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "coffee.ali-oss",
+      "type": "cn.coffee.oss.spring.boot.autoconfigure.CoffeeAliOssProperties",
+      "sourceType": "cn.coffee.oss.spring.boot.autoconfigure.CoffeeAliOssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "coffee.ali-oss.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "cn.coffee.oss.spring.boot.autoconfigure.CoffeeAliOssProperties"
+    },
+    {
+      "name": "coffee.ali-oss.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "cn.coffee.oss.spring.boot.autoconfigure.CoffeeAliOssProperties"
+    },
+    {
+      "name": "coffee.ali-oss.bucket-default",
+      "type": "java.lang.String",
+      "sourceType": "cn.coffee.oss.spring.boot.autoconfigure.CoffeeAliOssProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "coffee.ali-oss.bucket-list",
+      "type": "java.util.Map<java.lang.String,cn.coffee.oss.spring.boot.autoconfigure.CoffeeAliOssProperties$bucketInfo>",
+      "sourceType": "cn.coffee.oss.spring.boot.autoconfigure.CoffeeAliOssProperties"
+    },
+    {
+      "name": "coffee.ali-oss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "cn.coffee.oss.spring.boot.autoconfigure.CoffeeAliOssProperties"
+    }
+  ],
+  "hints": []
+}

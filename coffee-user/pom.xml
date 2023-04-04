@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>coffee-parent</artifactId>
+        <groupId>cn.lhz</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../coffee-parent/pom.xml</relativePath>
+    </parent>
+    <artifactId>coffee-user</artifactId>
+    <packaging>jar</packaging>
+    <name>COFFEE :: USER</name>
+    <description>用户管理</description>
+
+    <dependencies>
+        <!--MyBatis Plus依赖-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.5.2</version>
+        </dependency>
+        <!--json依赖-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>2.0.9</version>
+        </dependency>
+        <!--MySQL连接依赖-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.29</version>
+        </dependency>
+
+        <!-- Sa-Token 权限认证, 在线文档：http://sa-token.dev33.cn/ -->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-spring-boot-starter</artifactId>
+            <version>1.30.0</version>
+        </dependency>
+
+        <!-- Sa-Token 整合redis (使用jackson序列化方式) -->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-dao-redis-jackson</artifactId>
+            <version>1.30.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+        </dependency>
+
+        <!-- Sa-Token插件：权限缓存与业务缓存分离 -->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-alone-redis</artifactId>
+            <version>1.30.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.lhz</groupId>
+            <artifactId>coffee-common</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <version>2.7.1</version>
+            <optional>true</optional>
+        </dependency>
+
+
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.5.0-b01</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/lib</directory>
+                <targetPath>BOOT-INF/lib/</targetPath>
+                <includes>
+                    <include>**/*.jar</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <targetPath>BOOT-INF/classes/</targetPath>
+            </resource>
+        </resources>
+    </build>
+
+</project>

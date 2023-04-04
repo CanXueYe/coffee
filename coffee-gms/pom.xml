@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>coffee-parent</artifactId>
+        <groupId>cn.lhz</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../coffee-parent/pom.xml</relativePath>
+    </parent>
+    <artifactId>coffee-gms</artifactId>
+    <packaging>jar</packaging>
+    <name>COFFEE :: GMS</name>
+    <description>游戏模块</description>
+
+    <dependencies>
+        <!--MyBatis Plus依赖-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.5.2</version>
+        </dependency>
+        <!--json依赖-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>2.0.9</version>
+        </dependency>
+        <!--MySQL连接依赖-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.29</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.lhz</groupId>
+            <artifactId>coffee-common</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+</project>
